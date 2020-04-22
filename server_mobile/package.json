@@ -1,0 +1,22 @@
+{
+  "name": "metal-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "blueimp-md5": "^2.13.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.1.1",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "mongoose": "^5.9.9",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.3",
+    "socket.io": "^2.3.0"
+  }
+}
